@@ -79,6 +79,8 @@ After using this middleware, a new property will be available on the `app` calle
 - `api` - the api document.
 - `routes` - the route definitions based on the api document.
 
+The base url for the api can also be updated via the `setHost` function on the middleware. The base path can also be updated taht way, using `setBasePath` function on the middleware.
+
 Example:
 
 ```javascript
